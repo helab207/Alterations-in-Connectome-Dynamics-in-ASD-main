@@ -1,0 +1,1 @@
+Participant.csv file in this folder is used for case-control comparison analysis in RegionModel_Mega.r and RegionModel_Meta.r 
