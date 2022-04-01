@@ -56,7 +56,7 @@ for counter = 1:length(Y_Scores)
  
 end
 Corr = corr(PredictedScore, Y_Scores);
-save([OutputPath,filesep,'PredictedResultsRegressCov.mat'],'Corr','indx','FeatureWeight','PredictedScore')
+save([OutputPath,filesep,'PredictedResultsRegressCov.mat'],'Corr','FeatureIndex','PredictedScore')
 end
 
 
